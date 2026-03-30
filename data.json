@@ -1,0 +1,35 @@
+{
+  "locations": {
+    "MP Nagar": {"Habibganj": 4, "Arera Colony": 3},
+    "Habibganj": {"MP Nagar": 4, "BHEL": 6},
+    "Arera Colony": {"MP Nagar": 3, "Kolar Road": 5},
+    "Kolar Road": {"Arera Colony": 5, "AIIMS Bhopal": 7},
+    "BHEL": {"Habibganj": 6, "Govindpura": 4},
+    "Govindpura": {"BHEL": 4, "Hamidia Hospital": 3},
+    "AIIMS Bhopal": {"Kolar Road": 7},
+    "Hamidia Hospital": {"Govindpura": 3}
+  },
+
+  "hospitals": {
+    "AIIMS Bhopal": {
+      "name": "AIIMS Bhopal",
+      "cost": 200,
+      "type": "Government"
+    },
+    "Hamidia Hospital": {
+      "name": "Hamidia Hospital",
+      "cost": 100,
+      "type": "Government"
+    },
+    "Arera Colony": {
+      "name": "Noble Hospital",
+      "cost": 600,
+      "type": "Private"
+    },
+    "Habibganj": {
+      "name": "Bansal Hospital",
+      "cost": 800,
+      "type": "Private"
+    }
+  }
+}
